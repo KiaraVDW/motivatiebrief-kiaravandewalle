@@ -210,7 +210,10 @@ p {
 }
 
 .hero h1 {
-    max-width: 900px;
+    font-size: 8.2vw;
+    line-height: 1;
+    letter-spacing: -0.4px;
+    max-width: 100%;
 }
 
 .subtitle {
