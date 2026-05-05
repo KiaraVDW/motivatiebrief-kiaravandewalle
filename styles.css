@@ -1077,3 +1077,79 @@ p {
         inset: 12px -10px -10px 10px !important;
     }
 }
+/* DEFINITIEVE GSM FIX INDEX HERO */
+@media (max-width: 600px) {
+    body,
+    html {
+        overflow-x: hidden !important;
+    }
+
+    .hero {
+        width: 100% !important;
+        min-height: auto !important;
+        padding: 120px 6% 70px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 55px !important;
+        background: white !important;
+        overflow: hidden !important;
+    }
+
+    .hero-content {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .hero h1 {
+        font-size: clamp(3rem, 14vw, 4.1rem) !important;
+        line-height: 0.95 !important;
+        letter-spacing: -2px !important;
+        max-width: 100% !important;
+        word-break: normal !important;
+        overflow-wrap: normal !important;
+    }
+
+    .subtitle {
+        max-width: 100% !important;
+        font-size: 0.95rem !important;
+        padding: 11px 14px !important;
+    }
+
+    .hero-buttons {
+        width: 100% !important;
+    }
+
+    .hero-buttons .btn {
+        width: 100% !important;
+        max-width: 360px !important;
+        text-align: center !important;
+    }
+
+    .hero-visual {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+        margin-top: 10px !important;
+        overflow: visible !important;
+    }
+
+    .poster-frame {
+        width: 78vw !important;
+        max-width: 300px !important;
+        aspect-ratio: 1 / 1 !important;
+        margin: 0 auto !important;
+        transform: none !important;
+    }
+
+    .poster-frame::before {
+        inset: 12px -12px -12px 12px !important;
+    }
+
+    .poster-frame img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        display: block !important;
+    }
+}
