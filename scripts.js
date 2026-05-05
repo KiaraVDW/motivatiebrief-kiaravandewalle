@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    const reveals = document.querySelectorAll(".reveal");
+    const reveals = document.querySelectorAll(".reveal:not(.hero):not(.hero-content):not(.hero-visual)");
 
     if (reveals.length > 0) {
         const revealObserver = new IntersectionObserver((entries) => {
