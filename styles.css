@@ -1153,3 +1153,11 @@ p {
         display: block !important;
     }
 }
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 11vw !important;
+        line-height: 0.95 !important;
+        letter-spacing: -1px !important;
+        word-break: break-word;
+    }
+}
